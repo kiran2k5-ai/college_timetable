@@ -1,5 +1,5 @@
 <?php
-require 'config/db.php'; // contains mysqli connection
+require '../config/db.php';
 
 $days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
 $years = [1, 2, 3, 4];
@@ -7,103 +7,131 @@ $sections = ['A', 'B', 'C'];
 
 $response = [];
 
-// Load all teachers and their loads
+// Load teachers and their load
 $teachers = [];
-$teacher_load = [];
+$teacher_load = []; // teacher_id => [year => count]
 $res = $conn->query("SELECT * FROM teachers");
 while ($row = $res->fetch_assoc()) {
     $teachers[$row['id']] = $row;
-    $teacher_load[$row['id']] = 0;
+    $teacher_load[$row['id']] = [1 => 0, 2 => 0, 3 => 0, 4 => 0];
 }
 
-// Load teacher-subject assignments
+// Map teacher to subject
 $teacher_subject_map = [];
 $res = $conn->query("SELECT teacher_id, subject_id FROM teacher_subjects");
 while ($row = $res->fetch_assoc()) {
     $teacher_subject_map[$row['subject_id']] = $row['teacher_id'];
 }
 
-// Load all subjects
+// Subjects grouped by year
 $subjects_by_year = [];
+$subject_weekly_count = []; // subject_id => count
+
 $res = $conn->query("SELECT * FROM subjects");
 while ($row = $res->fetch_assoc()) {
     $subjects_by_year[$row['year']][] = $row;
+    $subject_weekly_count[$row['id']] = 0;
 }
 
-// Function to get a subject not overloaded and fits criteria
-function getAssignableSubject($year, $assigned, $type = 'any') {
-    global $subjects_by_year, $teacher_subject_map, $teachers, $teacher_load;
+// Helper: Get assignable subject
+function getAssignableSubject($year, $assigned_ids, $type = 'any') {
+    global $subjects_by_year, $teacher_subject_map, $teachers, $teacher_load, $subject_weekly_count;
 
-    foreach ($subjects_by_year[$year] as $subject) {
-        if (in_array($subject['id'], $assigned)) continue;
+    $subjects = $subjects_by_year[$year];
+    shuffle($subjects); // random order
+
+    foreach ($subjects as $subject) {
+        if ($subject_weekly_count[$subject['id']] >= 4) continue;
         if ($type === 'lab' && !$subject['is_lab']) continue;
         if ($type === 'theory' && $subject['is_lab']) continue;
 
         $teacher_id = $teacher_subject_map[$subject['id']] ?? null;
-        if (!$teacher_id) continue;
-        if ($teacher_load[$teacher_id] >= $teachers[$teacher_id]['max_load']) continue;
+        if (!$teacher_id || $teacher_load[$teacher_id][$year] >= $teachers[$teacher_id]['max_load']) continue;
 
-        return $subject;
+        // Passed all checks
+        $subject_weekly_count[$subject['id']]++;
+        $teacher_load[$teacher_id][$year]++;
+        return [$subject, $teacher_id];
     }
-    return null;
+
+    return [null, null];
 }
 
-// Generate timetable
+// Build timetable
 foreach ($years as $year) {
     $max_periods = ($year == 1 || $year == 3) ? 8 : 7;
 
     foreach ($sections as $section) {
-        $assigned_subjects = [];
         $timetable = [];
+        $assigned_subjects = [];
 
         foreach ($days as $day) {
+            $p = 1;
             $timetable[$day] = [];
 
-            $p = 1;
             while ($p <= $max_periods) {
-                // Randomly assign lab (2 or 3 periods)
-                if (rand(0, 6) < 2 && $p <= $max_periods - 1) {
-                    $lab = getAssignableSubject($year, $assigned_subjects, 'lab');
-                    if ($lab) {
-                        $teacher_id = $teacher_subject_map[$lab['id']];
-                        $period_span = rand(2, min(3, $max_periods - $p + 1));
+                $slot_filled = false;
 
-                        for ($i = 0; $i < $period_span; $i++) {
-                            $timetable[$day][$p] = [
-                                'subject' => $lab['name'],
-                                'teacher' => $teachers[$teacher_id]['name'],
-                                'type' => 'lab'
-                            ];
-                            $p++;
+                // Determine required lab span (3 for 1st/3rd, 2 for 2nd/4th)
+                $lab_span = in_array($year, [1, 3]) ? 3 : 2;
+
+                // Try to assign lab
+                if (rand(0, 10) < 3 && $p <= $max_periods - $lab_span + 1) {
+                    list($lab, $teacher_id) = getAssignableSubject($year, $assigned_subjects, 'lab');
+                    if ($lab) {
+                        $can_assign = true;
+                        for ($i = 0; $i < $lab_span; $i++) {
+                            if (isset($timetable[$day][$p + $i])) {
+                                $can_assign = false;
+                                break;
+                            }
                         }
-                        $assigned_subjects[] = $lab['id'];
-                        $teacher_load[$teacher_id] += $period_span;
-                        continue;
+                        if ($can_assign) {
+                            for ($i = 0; $i < $lab_span; $i++) {
+                                $timetable[$day][$p + $i] = [
+                                    'subject' => $lab['name'],
+                                    'teacher' => $teachers[$teacher_id]['name'],
+                                    'type' => 'lab'
+                                ];
+                            }
+                            $assigned_subjects[] = $lab['id'];
+                            $p += $lab_span;
+                            $slot_filled = true;
+                            continue;
+                        }
                     }
                 }
 
-                // Assign theory
-                $subject = getAssignableSubject($year, $assigned_subjects, 'theory');
-                if ($subject) {
-                    $teacher_id = $teacher_subject_map[$subject['id']];
+                // Try to assign theory
+                list($theory, $teacher_id) = getAssignableSubject($year, $assigned_subjects, 'theory');
+                if ($theory) {
                     $timetable[$day][$p] = [
-                        'subject' => $subject['name'],
+                        'subject' => $theory['name'],
                         'teacher' => $teachers[$teacher_id]['name'],
                         'type' => 'theory'
                     ];
-                    $assigned_subjects[] = $subject['id'];
-                    $teacher_load[$teacher_id]++;
-                } else {
-                    // Free period or unable to assign
-                    $timetable[$day][$p] = ['subject' => 'Free', 'teacher' => '-', 'type' => 'free'];
+                    $assigned_subjects[] = $theory['id'];
+                    $p++;
+                    $slot_filled = true;
                 }
-                $p++;
+
+                // If nothing assigned
+                if (!$slot_filled) {
+                    $timetable[$day][$p] = [
+                        'subject' => 'Free',
+                        'teacher' => '-',
+                        'type' => 'free'
+                    ];
+                    $p++;
+                }
             }
         }
 
-        $response["Year {$year}"]["Section {$section}"] = $timetable;
+        $response["Year $year"]["Section $section"] = $timetable;
     }
 }
 
 header('Content-Type: application/json');
 echo json_encode($response, JSON_PRETTY_PRINT);
+file_put_contents(__DIR__ . '/../data/generate_timetable.json', json_encode($response, JSON_PRETTY_PRINT));
+

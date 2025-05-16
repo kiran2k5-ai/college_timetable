@@ -3,414 +3,414 @@
         "Section A": {
             "Monday": {
                 "1": {
-                    "subject": "Mathematics I",
-                    "teacher": "Dr. Rao",
+                    "subject": "C Programming",
+                    "teacher": "Mr. Kumar",
                     "type": "theory"
                 },
                 "2": {
-                    "subject": "Mathematics I",
-                    "teacher": "Dr. Rao",
+                    "subject": "Engineering Graphics",
+                    "teacher": "Ms. Nandini",
                     "type": "theory"
                 },
                 "3": {
-                    "subject": "Chemistry Lab",
-                    "teacher": "Ms. Nandini",
-                    "type": "lab"
-                },
-                "4": {
-                    "subject": "Chemistry Lab",
-                    "teacher": "Ms. Nandini",
-                    "type": "lab"
-                },
-                "5": {
                     "subject": "Mathematics I",
                     "teacher": "Dr. Rao",
+                    "type": "theory"
+                },
+                "4": {
+                    "subject": "Mathematics I",
+                    "teacher": "Ms. Nandini",
+                    "type": "theory"
+                },
+                "5": {
+                    "subject": "Chemistry",
+                    "teacher": "Mrs. Latha",
                     "type": "theory"
                 },
                 "6": {
-                    "subject": "Mathematics I",
-                    "teacher": "Dr. Rao",
-                    "type": "theory"
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "7": {
-                    "subject": "Physics",
-                    "teacher": "Dr. Rao",
-                    "type": "theory"
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "8": {
-                    "subject": "Physics",
-                    "teacher": "Dr. Rao",
-                    "type": "theory"
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 }
             },
             "Tuesday": {
                 "1": {
-                    "subject": "Physics",
-                    "teacher": "Dr. Rao",
+                    "subject": "Engineering Graphics",
+                    "teacher": "Ms. Nandini",
                     "type": "theory"
                 },
                 "2": {
-                    "subject": "Chemistry Lab",
-                    "teacher": "Ms. Nandini",
+                    "subject": "C Lab",
+                    "teacher": "Dr. Rao",
                     "type": "lab"
                 },
                 "3": {
-                    "subject": "Chemistry Lab",
-                    "teacher": "Ms. Nandini",
+                    "subject": "C Lab",
+                    "teacher": "Dr. Rao",
                     "type": "lab"
                 },
                 "4": {
-                    "subject": "Physics",
+                    "subject": "C Lab",
                     "teacher": "Dr. Rao",
-                    "type": "theory"
+                    "type": "lab"
                 },
                 "5": {
-                    "subject": "C Lab",
-                    "teacher": "Ms. Nandini",
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
                     "type": "lab"
                 },
                 "6": {
-                    "subject": "C Lab",
-                    "teacher": "Ms. Nandini",
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
                     "type": "lab"
                 },
                 "7": {
-                    "subject": "C Lab",
-                    "teacher": "Ms. Nandini",
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
                     "type": "lab"
                 },
                 "8": {
-                    "subject": "C Lab",
-                    "teacher": "Ms. Nandini",
-                    "type": "lab"
+                    "subject": "Chemistry",
+                    "teacher": "Mrs. Latha",
+                    "type": "theory"
                 }
             },
             "Wednesday": {
                 "1": {
-                    "subject": "C Programming",
+                    "subject": "Physics",
                     "teacher": "Mr. Ajay",
                     "type": "theory"
                 },
                 "2": {
-                    "subject": "C Programming",
-                    "teacher": "Mr. Ajay",
+                    "subject": "Engineering Graphics",
+                    "teacher": "Ms. Nandini",
                     "type": "theory"
                 },
                 "3": {
-                    "subject": "C Programming",
-                    "teacher": "Mr. Ajay",
+                    "subject": "Chemistry",
+                    "teacher": "Mrs. Latha",
                     "type": "theory"
                 },
                 "4": {
-                    "subject": "C Programming",
-                    "teacher": "Mr. Ajay",
+                    "subject": "Mathematics I",
+                    "teacher": "Dr. Rao",
                     "type": "theory"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "7": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "8": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Physics",
+                    "teacher": "Ms. Nandini",
+                    "type": "theory"
                 }
             },
             "Thursday": {
                 "1": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Mathematics I",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Mathematics I",
+                    "teacher": "Ms. Nandini",
+                    "type": "theory"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "English",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 },
                 "4": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "7": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Chemistry",
+                    "teacher": "Mrs. Latha",
+                    "type": "theory"
                 },
                 "8": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Mathematics I",
+                    "teacher": "Ms. Nandini",
+                    "type": "theory"
                 }
             },
             "Friday": {
                 "1": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "4": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Engineering Graphics",
+                    "teacher": "Ms. Nandini",
+                    "type": "theory"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Physics",
+                    "teacher": "Mr. Ajay",
+                    "type": "theory"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Mathematics I",
+                    "teacher": "Ms. Nandini",
+                    "type": "theory"
                 },
                 "7": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Physics",
+                    "teacher": "Mr. Ajay",
+                    "type": "theory"
                 },
                 "8": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Mathematics I",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 }
             }
         },
         "Section B": {
             "Monday": {
                 "1": {
-                    "subject": "Chemistry Lab",
-                    "teacher": "Ms. Nandini",
-                    "type": "lab"
+                    "subject": "English",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 },
                 "2": {
-                    "subject": "Chemistry Lab",
-                    "teacher": "Ms. Nandini",
+                    "subject": "C Lab",
+                    "teacher": "Dr. Rao",
                     "type": "lab"
                 },
                 "3": {
-                    "subject": "Chemistry Lab",
-                    "teacher": "Ms. Nandini",
+                    "subject": "C Lab",
+                    "teacher": "Dr. Rao",
                     "type": "lab"
                 },
                 "4": {
-                    "subject": "Chemistry Lab",
-                    "teacher": "Ms. Nandini",
+                    "subject": "C Lab",
+                    "teacher": "Dr. Rao",
                     "type": "lab"
                 },
                 "5": {
-                    "subject": "Chemistry Lab",
-                    "teacher": "Ms. Nandini",
-                    "type": "lab"
+                    "subject": "C Programming",
+                    "teacher": "Mrs. Latha",
+                    "type": "theory"
                 },
                 "6": {
-                    "subject": "Mathematics I",
-                    "teacher": "Dr. Rao",
-                    "type": "theory"
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "7": {
-                    "subject": "Mathematics I",
-                    "teacher": "Dr. Rao",
-                    "type": "theory"
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "8": {
-                    "subject": "Mathematics I",
-                    "teacher": "Dr. Rao",
-                    "type": "theory"
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 }
             },
             "Tuesday": {
                 "1": {
                     "subject": "C Lab",
-                    "teacher": "Ms. Nandini",
+                    "teacher": "Dr. Rao",
                     "type": "lab"
                 },
                 "2": {
                     "subject": "C Lab",
-                    "teacher": "Ms. Nandini",
+                    "teacher": "Dr. Rao",
                     "type": "lab"
                 },
                 "3": {
                     "subject": "C Lab",
-                    "teacher": "Ms. Nandini",
+                    "teacher": "Dr. Rao",
                     "type": "lab"
                 },
                 "4": {
-                    "subject": "Mathematics I",
-                    "teacher": "Dr. Rao",
+                    "subject": "C Programming",
+                    "teacher": "Mr. Kumar",
                     "type": "theory"
                 },
                 "5": {
-                    "subject": "Physics",
-                    "teacher": "Dr. Rao",
-                    "type": "theory"
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "6": {
-                    "subject": "Physics",
-                    "teacher": "Dr. Rao",
-                    "type": "theory"
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "7": {
-                    "subject": "C Lab",
-                    "teacher": "Ms. Nandini",
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
                     "type": "lab"
                 },
                 "8": {
-                    "subject": "C Lab",
-                    "teacher": "Ms. Nandini",
-                    "type": "lab"
+                    "subject": "C Programming",
+                    "teacher": "Mrs. Latha",
+                    "type": "theory"
                 }
             },
             "Wednesday": {
                 "1": {
-                    "subject": "Physics",
-                    "teacher": "Dr. Rao",
-                    "type": "theory"
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "2": {
-                    "subject": "Physics",
-                    "teacher": "Dr. Rao",
-                    "type": "theory"
+                    "subject": "Chemistry Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "3": {
-                    "subject": "C Programming",
+                    "subject": "Chemistry Lab",
                     "teacher": "Mr. Ajay",
-                    "type": "theory"
+                    "type": "lab"
                 },
                 "4": {
-                    "subject": "C Programming",
+                    "subject": "Chemistry Lab",
                     "teacher": "Mr. Ajay",
-                    "type": "theory"
+                    "type": "lab"
                 },
                 "5": {
-                    "subject": "C Programming",
+                    "subject": "Chemistry Lab",
                     "teacher": "Mr. Ajay",
-                    "type": "theory"
+                    "type": "lab"
                 },
                 "6": {
-                    "subject": "C Programming",
+                    "subject": "Chemistry Lab",
                     "teacher": "Mr. Ajay",
-                    "type": "theory"
+                    "type": "lab"
                 },
                 "7": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Programming",
+                    "teacher": "Mrs. Latha",
+                    "type": "theory"
                 },
                 "8": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Programming",
+                    "teacher": "Mrs. Latha",
+                    "type": "theory"
                 }
             },
             "Thursday": {
                 "1": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Programming",
+                    "teacher": "Mr. Kumar",
+                    "type": "theory"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Programming",
+                    "teacher": "Mr. Kumar",
+                    "type": "theory"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "English",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 },
                 "4": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "English",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Physics",
+                    "teacher": "Mr. Ajay",
+                    "type": "theory"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Physics",
+                    "teacher": "Ms. Nandini",
+                    "type": "theory"
                 },
                 "7": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Physics",
+                    "teacher": "Ms. Nandini",
+                    "type": "theory"
                 },
                 "8": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Physics",
+                    "teacher": "Ms. Nandini",
+                    "type": "theory"
                 }
             },
             "Friday": {
                 "1": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Lab",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Lab",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Lab",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "4": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "7": {
                     "subject": "Free",
@@ -427,61 +427,61 @@
         "Section C": {
             "Monday": {
                 "1": {
-                    "subject": "Mathematics I",
-                    "teacher": "Dr. Rao",
-                    "type": "theory"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "2": {
-                    "subject": "Mathematics I",
-                    "teacher": "Dr. Rao",
-                    "type": "theory"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "3": {
-                    "subject": "Mathematics I",
-                    "teacher": "Dr. Rao",
-                    "type": "theory"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "4": {
-                    "subject": "Mathematics I",
-                    "teacher": "Dr. Rao",
-                    "type": "theory"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "5": {
-                    "subject": "C Programming",
-                    "teacher": "Mr. Ajay",
-                    "type": "theory"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "6": {
-                    "subject": "C Programming",
-                    "teacher": "Mr. Ajay",
-                    "type": "theory"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "7": {
-                    "subject": "C Programming",
-                    "teacher": "Mr. Ajay",
-                    "type": "theory"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "8": {
-                    "subject": "C Programming",
-                    "teacher": "Mr. Ajay",
-                    "type": "theory"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 }
             },
             "Tuesday": {
                 "1": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "4": {
                     "subject": "Free",
@@ -536,19 +536,19 @@
                     "type": "free"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "7": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "8": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "C Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 }
             },
             "Thursday": {
@@ -641,258 +641,258 @@
         "Section A": {
             "Monday": {
                 "1": {
-                    "subject": "Data Structures",
+                    "subject": "Digital Logic",
                     "teacher": "Mrs. Latha",
                     "type": "theory"
                 },
                 "2": {
-                    "subject": "DS Lab",
-                    "teacher": "Mrs. Latha",
-                    "type": "lab"
+                    "subject": "OOPs",
+                    "teacher": "Mr. Kumar",
+                    "type": "theory"
                 },
                 "3": {
-                    "subject": "DS Lab",
-                    "teacher": "Mrs. Latha",
-                    "type": "lab"
+                    "subject": "Digital Logic",
+                    "teacher": "Mr. Ajay",
+                    "type": "theory"
                 },
                 "4": {
-                    "subject": "Data Structures",
-                    "teacher": "Mrs. Latha",
+                    "subject": "Mathematics II",
+                    "teacher": "Ms. Nandini",
                     "type": "theory"
                 },
                 "5": {
                     "subject": "Data Structures",
-                    "teacher": "Mrs. Latha",
+                    "teacher": "Dr. Rao",
                     "type": "theory"
                 },
                 "6": {
-                    "subject": "Data Structures",
-                    "teacher": "Mrs. Latha",
+                    "subject": "Digital Logic",
+                    "teacher": "Mr. Ajay",
                     "type": "theory"
                 },
                 "7": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Data Structures",
+                    "teacher": "Mr. Ajay",
+                    "type": "theory"
                 }
             },
             "Tuesday": {
                 "1": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Computer Architecture",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DL Lab",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DL Lab",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "4": {
-                    "subject": "DS Lab",
-                    "teacher": "Mrs. Latha",
-                    "type": "lab"
+                    "subject": "Computer Architecture",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 },
                 "5": {
-                    "subject": "DS Lab",
-                    "teacher": "Mrs. Latha",
-                    "type": "lab"
+                    "subject": "Computer Architecture",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 },
                 "6": {
-                    "subject": "DS Lab",
-                    "teacher": "Mrs. Latha",
-                    "type": "lab"
+                    "subject": "Mathematics II",
+                    "teacher": "Ms. Nandini",
+                    "type": "theory"
                 },
                 "7": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Digital Logic",
+                    "teacher": "Mrs. Latha",
+                    "type": "theory"
                 }
             },
             "Wednesday": {
                 "1": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Computer Architecture",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Data Structures",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DL Lab",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "4": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DL Lab",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Digital Logic",
+                    "teacher": "Mrs. Latha",
+                    "type": "theory"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DL Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "7": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DL Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 }
             },
             "Thursday": {
                 "1": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "4": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Data Structures",
+                    "teacher": "Mr. Ajay",
+                    "type": "theory"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DL Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "7": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DL Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 }
             },
             "Friday": {
                 "1": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Mathematics II",
+                    "teacher": "Ms. Nandini",
+                    "type": "theory"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Data Structures",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "4": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "7": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Mathematics II",
+                    "teacher": "Ms. Nandini",
+                    "type": "theory"
                 }
             }
         },
         "Section B": {
             "Monday": {
                 "1": {
-                    "subject": "DS Lab",
+                    "subject": "Digital Logic",
                     "teacher": "Mrs. Latha",
-                    "type": "lab"
+                    "type": "theory"
                 },
                 "2": {
                     "subject": "DS Lab",
-                    "teacher": "Mrs. Latha",
+                    "teacher": "Ms. Nandini",
                     "type": "lab"
                 },
                 "3": {
                     "subject": "DS Lab",
-                    "teacher": "Mrs. Latha",
+                    "teacher": "Ms. Nandini",
                     "type": "lab"
                 },
                 "4": {
                     "subject": "Data Structures",
-                    "teacher": "Mrs. Latha",
+                    "teacher": "Dr. Rao",
                     "type": "theory"
                 },
                 "5": {
-                    "subject": "Data Structures",
-                    "teacher": "Mrs. Latha",
+                    "subject": "OOPs",
+                    "teacher": "Mr. Kumar",
                     "type": "theory"
                 },
                 "6": {
-                    "subject": "Data Structures",
-                    "teacher": "Mrs. Latha",
-                    "type": "theory"
+                    "subject": "DS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "7": {
-                    "subject": "Data Structures",
-                    "teacher": "Mrs. Latha",
-                    "type": "theory"
+                    "subject": "DS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 }
             },
             "Tuesday": {
                 "1": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Digital Logic",
+                    "teacher": "Mr. Ajay",
+                    "type": "theory"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Data Structures",
+                    "teacher": "Mr. Ajay",
+                    "type": "theory"
                 },
                 "3": {
-                    "subject": "DS Lab",
-                    "teacher": "Mrs. Latha",
-                    "type": "lab"
+                    "subject": "Digital Logic",
+                    "teacher": "Mr. Ajay",
+                    "type": "theory"
                 },
                 "4": {
-                    "subject": "DS Lab",
-                    "teacher": "Mrs. Latha",
-                    "type": "lab"
+                    "subject": "OOPs",
+                    "teacher": "Mr. Kumar",
+                    "type": "theory"
                 },
                 "5": {
-                    "subject": "DS Lab",
-                    "teacher": "Mrs. Latha",
-                    "type": "lab"
+                    "subject": "Data Structures",
+                    "teacher": "Mr. Ajay",
+                    "type": "theory"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "OOPs",
+                    "teacher": "Mr. Kumar",
+                    "type": "theory"
                 },
                 "7": {
                     "subject": "Free",
@@ -922,14 +922,14 @@
                     "type": "free"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DL Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DL Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "7": {
                     "subject": "Free",
@@ -991,14 +991,14 @@
                     "type": "free"
                 },
                 "4": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "6": {
                     "subject": "Free",
@@ -1015,9 +1015,9 @@
         "Section C": {
             "Monday": {
                 "1": {
-                    "subject": "Data Structures",
-                    "teacher": "Mrs. Latha",
-                    "type": "theory"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "2": {
                     "subject": "Free",
@@ -1035,14 +1035,14 @@
                     "type": "free"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DL Lab",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DL Lab",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "7": {
                     "subject": "Free",
@@ -1057,14 +1057,14 @@
                     "type": "free"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "4": {
                     "subject": "Free",
@@ -1072,14 +1072,14 @@
                     "type": "free"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DL Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DL Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "7": {
                     "subject": "Free",
@@ -1094,14 +1094,14 @@
                     "type": "free"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DL Lab",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DL Lab",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "4": {
                     "subject": "Free",
@@ -1205,65 +1205,65 @@
             "Monday": {
                 "1": {
                     "subject": "DBMS",
-                    "teacher": "Mr. Kumar",
+                    "teacher": "Mrs. Latha",
                     "type": "theory"
                 },
                 "2": {
-                    "subject": "DBMS Lab",
-                    "teacher": "Mr. Kumar",
-                    "type": "lab"
+                    "subject": "DBMS",
+                    "teacher": "Mrs. Latha",
+                    "type": "theory"
                 },
                 "3": {
-                    "subject": "DBMS Lab",
-                    "teacher": "Mr. Kumar",
-                    "type": "lab"
+                    "subject": "DBMS",
+                    "teacher": "Mrs. Latha",
+                    "type": "theory"
                 },
                 "4": {
-                    "subject": "DBMS",
-                    "teacher": "Mr. Kumar",
+                    "subject": "Operating Systems",
+                    "teacher": "Dr. Rao",
                     "type": "theory"
                 },
                 "5": {
-                    "subject": "DBMS Lab",
-                    "teacher": "Mr. Kumar",
-                    "type": "lab"
+                    "subject": "DBMS",
+                    "teacher": "Mrs. Latha",
+                    "type": "theory"
                 },
                 "6": {
-                    "subject": "DBMS Lab",
-                    "teacher": "Mr. Kumar",
-                    "type": "lab"
+                    "subject": "Operating Systems",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 },
                 "7": {
-                    "subject": "DBMS Lab",
-                    "teacher": "Mr. Kumar",
-                    "type": "lab"
+                    "subject": "Operating Systems",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 },
                 "8": {
-                    "subject": "DBMS",
-                    "teacher": "Mr. Kumar",
+                    "subject": "Operating Systems",
+                    "teacher": "Dr. Rao",
                     "type": "theory"
                 }
             },
             "Tuesday": {
                 "1": {
-                    "subject": "DBMS",
-                    "teacher": "Mr. Kumar",
-                    "type": "theory"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "OS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "OS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "4": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "OS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "5": {
                     "subject": "Free",
@@ -1372,19 +1372,19 @@
             },
             "Friday": {
                 "1": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "OS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "OS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "OS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "4": {
                     "subject": "Free",
@@ -1416,39 +1416,39 @@
         "Section B": {
             "Monday": {
                 "1": {
-                    "subject": "DBMS",
-                    "teacher": "Mr. Kumar",
-                    "type": "theory"
-                },
-                "2": {
-                    "subject": "DBMS",
-                    "teacher": "Mr. Kumar",
-                    "type": "theory"
-                },
-                "3": {
-                    "subject": "DBMS",
-                    "teacher": "Mr. Kumar",
-                    "type": "theory"
-                },
-                "4": {
-                    "subject": "DBMS",
-                    "teacher": "Mr. Kumar",
-                    "type": "theory"
-                },
-                "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
-                },
-                "6": {
                     "subject": "DBMS Lab",
                     "teacher": "Mr. Kumar",
+                    "type": "lab"
+                },
+                "2": {
+                    "subject": "DBMS Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
+                },
+                "3": {
+                    "subject": "DBMS Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
+                },
+                "4": {
+                    "subject": "OS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
+                },
+                "5": {
+                    "subject": "OS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
+                },
+                "6": {
+                    "subject": "OS Lab",
+                    "teacher": "Ms. Nandini",
                     "type": "lab"
                 },
                 "7": {
-                    "subject": "DBMS Lab",
-                    "teacher": "Mr. Kumar",
-                    "type": "lab"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "8": {
                     "subject": "Free",
@@ -1468,14 +1468,14 @@
                     "type": "free"
                 },
                 "3": {
-                    "subject": "DBMS Lab",
-                    "teacher": "Mr. Kumar",
-                    "type": "lab"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "4": {
-                    "subject": "DBMS Lab",
-                    "teacher": "Mr. Kumar",
-                    "type": "lab"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "5": {
                     "subject": "Free",
@@ -1483,36 +1483,36 @@
                     "type": "free"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DBMS Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "7": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DBMS Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "8": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DBMS Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 }
             },
             "Wednesday": {
                 "1": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DBMS Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DBMS Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DBMS Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "4": {
                     "subject": "Free",
@@ -1520,19 +1520,19 @@
                     "type": "free"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DBMS Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DBMS Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "7": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "DBMS Lab",
+                    "teacher": "Mr. Kumar",
+                    "type": "lab"
                 },
                 "8": {
                     "subject": "Free",
@@ -1562,19 +1562,19 @@
                     "type": "free"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "OS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "OS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "7": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "OS Lab",
+                    "teacher": "Ms. Nandini",
+                    "type": "lab"
                 },
                 "8": {
                     "subject": "Free",
@@ -1628,39 +1628,39 @@
         "Section C": {
             "Monday": {
                 "1": {
-                    "subject": "DBMS Lab",
-                    "teacher": "Mr. Kumar",
-                    "type": "lab"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "2": {
-                    "subject": "DBMS Lab",
-                    "teacher": "Mr. Kumar",
-                    "type": "lab"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "3": {
-                    "subject": "DBMS",
-                    "teacher": "Mr. Kumar",
-                    "type": "theory"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "4": {
-                    "subject": "DBMS",
-                    "teacher": "Mr. Kumar",
-                    "type": "theory"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "5": {
-                    "subject": "DBMS Lab",
-                    "teacher": "Mr. Kumar",
-                    "type": "lab"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "6": {
-                    "subject": "DBMS Lab",
-                    "teacher": "Mr. Kumar",
-                    "type": "lab"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "7": {
-                    "subject": "DBMS",
-                    "teacher": "Mr. Kumar",
-                    "type": "theory"
+                    "subject": "Free",
+                    "teacher": "-",
+                    "type": "free"
                 },
                 "8": {
                     "subject": "Free",
@@ -1842,76 +1842,76 @@
         "Section A": {
             "Monday": {
                 "1": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "AI",
+                    "teacher": "Ms. Nandini",
+                    "type": "theory"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "AI Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "AI Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "4": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Cloud Computing",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Cloud Computing",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Cloud Computing",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 },
                 "7": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Cloud Computing",
+                    "teacher": "Dr. Rao",
+                    "type": "theory"
                 }
             },
             "Tuesday": {
                 "1": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "AI Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "AI Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "AI",
+                    "teacher": "Ms. Nandini",
+                    "type": "theory"
                 },
                 "4": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "AI",
+                    "teacher": "Ms. Nandini",
+                    "type": "theory"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "AI",
+                    "teacher": "Ms. Nandini",
+                    "type": "theory"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "AI Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "7": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "AI Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 }
             },
             "Wednesday": {
@@ -1931,14 +1931,14 @@
                     "type": "free"
                 },
                 "4": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "AI Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "AI Lab",
+                    "teacher": "Mr. Ajay",
+                    "type": "lab"
                 },
                 "6": {
                     "subject": "Free",
@@ -1958,14 +1958,14 @@
                     "type": "free"
                 },
                 "2": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Project Work",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Project Work",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "4": {
                     "subject": "Free",
@@ -1973,14 +1973,14 @@
                     "type": "free"
                 },
                 "5": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Project Work",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Project Work",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "7": {
                     "subject": "Free",
@@ -2015,14 +2015,14 @@
                     "type": "free"
                 },
                 "6": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Project Work",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "7": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Project Work",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 }
             }
         },
@@ -2039,14 +2039,14 @@
                     "type": "free"
                 },
                 "3": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Project Work",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "4": {
-                    "subject": "Free",
-                    "teacher": "-",
-                    "type": "free"
+                    "subject": "Project Work",
+                    "teacher": "Dr. Rao",
+                    "type": "lab"
                 },
                 "5": {
                     "subject": "Free",
